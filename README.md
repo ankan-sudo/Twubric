@@ -1,3 +1,30 @@
+# Overview
+Twubric is a web application designed to review and score Twitter followers based on specific criteria. The application provides an intuitive UI for filtering followers by date range and visualizing their Twubric scores through various charts.
+
+# Features
+Date Range Filtering: Filter followers based on a selected start and end date.
+Follower Visualization: View detailed information about each follower, including their Twubric scores.
+Charts: Interactive charts (Bar and Pie) to visualize Twubric scores and their distribution.
+Responsive Design: User-friendly interface that adjusts to different screen sizes.
+Technologies Used
+Frontend:
+
+# React: For building the user interface.
+# React Bootstrap: For UI components and styling.
+# react-chartjs-2: For data visualization with Bar and Pie charts.
+# react-datepicker: For date selection.
+
+# Filter Component: 
+Allows users to select a date range for filtering followers. Utilizes react-datepicker for date selection.
+# FollowerCard Component: 
+Displays detailed information about a follower, including their image and Twubric score. Features Bar and Pie charts for data visualization.
+# Sort component: 
+Sorts component based on Influence, Chirpiness, Total Score, Friends.
+# FollowerList component: 
+Displays table view of the users showing Twubric Score, Friends, Influence, Chirpiness and a remove button.
+# FollowerConfig Component: 
+One of the main components which handles sort, filter and remove function and displays the above components as well.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

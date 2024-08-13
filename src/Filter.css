@@ -1,0 +1,9 @@
+/* Filter.css */
+.filter-container .form-group .form-label {
+    margin-bottom: 0.5rem; /* Adjust the space between label and DatePicker input */
+  }
+  
+  .filter-container .datepicker-input {
+    margin-top: 0.2rem; /* Add a bit of space between input and label */
+  }
+  
